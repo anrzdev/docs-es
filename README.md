@@ -1,25 +1,24 @@
 # vuejs.org
 
-## Contributing
+## Contribucion
 
-This site is built with [VitePress](https://github.com/vuejs/vitepress) and depends on [@vue/theme](https://github.com/vuejs/vue-theme). Site content is written in Markdown format located in `src`. For simple edits, you can directly edit the file on GitHub and generate a Pull Request.
+Este sitio esta construido con [VitePress](https://github.com/vuejs/vitepress) y depende de [@vue/theme](https://github.com/vuejs/vue-theme). El contenido del sitio esta escrito en formato Markdown localizado en `src`. Para simples ediciones, tu puedes directamente editar el archivo en GitHub y generar una Pull Request.
 
-For local development, [pnpm](https://pnpm.io/) is preferred as package manager:
+Para desarrollo local, [pnpm](https://pnpm.io) es preferible como manejador de paquetes.
 
 ```bash
 pnpm i
 pnpm run dev
 ```
 
-This project requires Node.js to be `v14.0.0` or higher, because we use new JavaScript features in our code, such as optional chaining.
+Este proyecto requiere que Node.js sea `v14.0.0` o superior, porque nosotros usamos las nuevas caracteristicas de JavaScript en nuestro codigo, como el optional chaining.
 
+## Trabajando en el contenido
 
-## Working on the content
+- Consulta la documentación de VitePress sobre las [extensiones de Markdown admitidas](https://vitepress.dev/guide/markdown) y la capacidad de [usar sintaxis de Vue dentro de Markdown](https://vitepress.dev/guide/using-vue).
 
-- See VitePress docs on supported [Markdown Extensions](https://vitepress.dev/guide/markdown) and the ability to [use Vue syntax inside markdown](https://vitepress.dev/guide/using-vue).
+- Mira la [guia de escritura](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) para nuestras reglas y recomendaciones en la escritura y mantenimiento del contenido de la documentación.
 
-- See the [Writing Guide](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) for our rules and recommendations on writing and maintaining documentation content.
+## Trabajando en el tema
 
-## Working on the theme
-
-If changes need to made for the theme, check out the [instructions for developing the theme alongside the docs](https://github.com/vuejs/vue-theme#developing-with-real-content).
+Si necesitas hacer cambios en el tema, mira las [instrucciones para el desarrollo del tema junto a la documentación](https://github.com/vuejs/vue-theme#developing-with-real-content).
